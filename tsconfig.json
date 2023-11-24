@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./", // Ruta a los archivos fuente TypeScript (puede ser './' si están en la raíz del proyecto)
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "lib": ["es2017", "dom"]
+  },
+  "include": ["**/*.ts"], // Patrón que incluye todos los archivos TypeScript
+  "exclude": ["node_modules", "dist"] // Excluir carpetas generadas por TypeScript y node_modules
+}
